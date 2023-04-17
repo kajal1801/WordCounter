@@ -14,7 +14,7 @@ myTextarea.addEventListener('input', () => {
     charCount = 0
     wordCount = 0
     if(text !== '')
-        wordCount = text.split(' ').length
+        wordCount = text.trim().split(/\s+/).filter(word => word !== '').length
     for (let i = 0; i < text.length; i++) {
         charCount++
     }

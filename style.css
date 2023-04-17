@@ -148,6 +148,14 @@ footer{
 
 /* Very Small */
 @media screen and (max-height: 400px){
+    #social-output {
+        font-size: 1em; 
+    }
+    #output{
+        font-size: 1rem;
+        flex-direction: column;
+        text-align: center;
+    }
     footer{
         position: relative;
     }
@@ -174,7 +182,8 @@ footer{
     }
 
     #social-output {
-        width: 90%;  
+        width: 90%;
+        font-size: 1em;  
     }
 
     .social {
@@ -203,7 +212,13 @@ footer{
 
     #social-output {
         width: 50%;
+        font-size: 1rem;
         justify-content: space-between;
+    }
+    #output{
+        font-size: 1rem;
+        flex-direction: column;
+        text-align: center;
     }
     .social {
         margin: 0.5em;
@@ -222,6 +237,13 @@ footer{
 
     #social-output {
         width: 60%;  
+        font-size: 1em;
+    }
+
+    #output{
+        font-size: 1rem;
+        flex-direction: column;
+        text-align: center;
     }
 
     .social {
