@@ -2,7 +2,7 @@
 
 ## About 
 
-### This web app helps you count the number of characters in your content and also shows if the content is withing the character limit of different social media platforms like Twitter, Instagram, Facebook, and Linkedin
+### This web app helps you count the number of characters in your content and also shows if the content is within the character limit of different social media platforms like Twitter, Instagram, Facebook, and Linkedin
 
 ## Tech Stack Used
 
